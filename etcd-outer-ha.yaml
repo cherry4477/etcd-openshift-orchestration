@@ -239,6 +239,7 @@ spec:
         - http://sb-#BSIUID#-etcd0:2380
         - http://sb-#BSIUID#-etcd.app.dataos.io:80
         - sb-#BSIUID#-etcd
+        - #ETCDUSERNAME#
         - #ETCDUSERPASSWORD#
         - etcd0
         image: 172.30.188.59:5000/#BSINAMESPACE#/etcd-openshift-orchestration:latest
